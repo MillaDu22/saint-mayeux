@@ -33,8 +33,8 @@ const WeatherWidget = () => {
             <h2 className="title-meteo">Weather</h2>
             <a
                 className="weatherwidget-io"
-                href="https://forecast7.com/fr/48d32n3d06/corlay/"
-                data-label_1="CORLAY"
+                href="https://forecast7.com/en/48d26n3d01/saint-mayeux/"
+                data-label_1="SAINT-MAYEUX"
                 data-label_2="Bretagne, France"
                 data-theme="original"
                 data-basecolor="#f9f9f9" 
@@ -45,7 +45,7 @@ const WeatherWidget = () => {
                 data-textcolor="#1e5a6e"
                 data-highcolor="#1e5a6e"
             >
-                CORLAY Bretagne, France
+                Saint-Mayeux Bretagne, France
             </a>
             </div>
         </section>

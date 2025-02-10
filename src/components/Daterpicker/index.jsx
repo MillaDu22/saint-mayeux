@@ -60,7 +60,7 @@ const TimeWidget = () => {
         >
         <h2 className ="title-time-is"><span>TIME.IS</span></h2>
         <a 
-            href="https://time.is/France"
+            href="https://time.is/Saint-Mayeux"
             id="time_is_link"
             rel="nofollow"
             style={{
@@ -71,7 +71,7 @@ const TimeWidget = () => {
             lineHeight:"20px",       
             fontWeight: "400",
             }}
-        ><i className="fas fa-map-marker-alt" ></i>Corlay
+        ><i className="fas fa-map-marker-alt" ></i>Saint-Mayeux
         </a>
         <span 
             id="France_z71f"

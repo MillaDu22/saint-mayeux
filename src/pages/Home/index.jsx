@@ -8,10 +8,10 @@ import Mairie from '../../assets/images/accueil/saint-mayeux-mairie.webp';
 import EgliseJour from '../../assets/images/accueil/saint-mayeux-jour.webp';
 import EgliseNuit from '../../assets/images/accueil/saint-mayeux-nuit.webp';
 import Eglise from '../../assets/images/accueil/saint-mayeux-eglise.webp';
-/*import Mairie from '../../assets/images/accueil/Place-mairie.webp';
-import Marché from '../../assets/images/accueil/Place-marche.webp';
-import Pontivy from '../../assets/images/accueil/Route-Pontivy.webp';
-import Facades from '../../assets/images/accueil/Facades-maisons.webp';*/
+import Etang from '../../assets/images/accueil/Etang-saint-mayeux.webp';
+import Menhir from '../../assets/images/accueil/menhir.webp';
+import Manor from '../../assets/images/accueil/Manoir_de_Cléhunault_à_Saint-Martin-des-Prés_et_chapelle.webp';
+import Mushroom from '../../assets/images/accueil/mushroom.webp';
 import Meteo from '../../components/Meteo/index.jsx';
 import Daterpicker from '../../components/Daterpicker/index.jsx';
 import Illiwap from '../../assets/images/logos/logo_illiwap.webp';
@@ -124,7 +124,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="box-intro-quadra2">
-                            {/*<div className ="intro-title3">
+                            <div className ="intro-title3">
                                 <h2 className="title2">Une commune vivante et tournée vers l’avenir</h2>
                                 <p>
                                     Corlay, ce n’est pas qu’un patrimoine ! C’est aussi un lieu de vie chaleureux, 
@@ -141,12 +141,12 @@ function Home() {
                             </div>
                             <div className="quadra2">
                                 <div className ="quadra">
-                                    <img className="patrimoine n1" src= {Mairie} alt="Place de l'église après travaux"/>
-                                    <img className= "tour n2" src ={Marché} alt ="Place du marché après travaux" />
-                                    <img className= "maisoncheval n3" src ={Pontivy} alt ="Route de Pontivy après travaux" />
-                                    <img className= "talus4 n4" src ={Facades} alt ="Les façades de la grande rue après ravalement" />
+                                    <img className="patrimoine n1" src= {Etang} alt="Place de l'église après travaux"/>
+                                    <img className= "tour n2" src ={Menhir} alt ="Place du marché après travaux" />
+                                    <img className= "maisoncheval n3" src ={Manor} alt ="Route de Pontivy après travaux" />
+                                    <img className= "talus4 n4" src ={Mushroom} alt ="Les façades de la grande rue après ravalement" />
                                 </div>
-                            </div>*/}
+                            </div>
                     </div>
                     {/*<Panneau />*/}
                     <LocalInfo />
