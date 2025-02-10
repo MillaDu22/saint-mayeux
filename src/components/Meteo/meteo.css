@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+
+.meteo-section {
+    width:76%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.332));
+    animation: fadeIn 1.2s ease-out;
+    overflow: hidden;
+}
+
+.box-meteo .title-meteo {
+    color: rgb(250, 250, 250);
+    cursor: pointer;
+    font-family: "Norican", serif;
+    font-style: normal;
+    font-size: 36px;
+    margin: 0;
+    padding:0 ;
+    color:#1e5a6e;
+    width:100%;
+    text-align: center;
+    font-weight: 400;
+    height: auto;
+    line-height: 55.2px;
+}
+
+.box-meteo{
+    width:100%;
+    height:100%;
+    overflow: hidden;
+    padding:0px;
+    background: #f9f9f9;
+    transition: transform 0.3s ease;
+}
+
+.box-meteo:hover {
+    transform: scale(1.01) ;
+}
+
+.ng-binding {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 400;
+    color:black;
+}
+
+@media (max-width: 1300px) {
+    .meteo-section {
+        padding: 0;
+        border-radius: 0px ;
+        filter:none;
+    }
+    .box-meteo {
+        width:100%;
+        box-shadow: none;
+        border-radius: 0px;
+        filter:none
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .meteo-section {
+        width:100%;
+        margin: 0 auto 0px;
+        padding: 0%;
+        box-shadow: none;
+        filter:none;
+    }
+
+    .box-meteo {
+        width:100%;
+        box-shadow: none;
+        filter:none;
+    }
+}

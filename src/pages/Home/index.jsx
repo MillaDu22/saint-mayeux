@@ -12,15 +12,15 @@ import Mairie from '../../assets/images/accueil/Place-mairie.webp';
 import Marché from '../../assets/images/accueil/Place-marche.webp';
 import Pontivy from '../../assets/images/accueil/Route-Pontivy.webp';
 import Facades from '../../assets/images/accueil/Facades-maisons.webp';*/
-/*import Meteo from '../../components/Meteo/index.jsx';
+import Meteo from '../../components/Meteo/index.jsx';
 import Daterpicker from '../../components/Daterpicker/index.jsx';
 import Illiwap from '../../assets/images/logos/logo_illiwap.webp';
 import Maps from '../../assets/images/logos/Maps-logo.webp';
-import News from '../../components/News/index.jsx';
+import News from '../../components/news/index.jsx';
 import Tibus from '../../components/Tibus/index.jsx';
 import LocalInfo from '../../components/LocalInfo/index.jsx';
 import Alertes from '../../components/Alertes/index.jsx';
-import Panneau from '../../components/Panneau/index.jsx';*/
+/*import Panneau from '../../components/Panneau/index.jsx';*/
 import { observeSections } from '../../utils/scrollAnimation';
 import './home.css';
 
@@ -148,7 +148,7 @@ function Home() {
                                 </div>
                             </div>*/}
                     </div>
-                    {/*<Panneau />
+                    {/*<Panneau />*/}
                     <LocalInfo />
                     <Tibus />
                     <Alertes />
@@ -227,7 +227,7 @@ function Home() {
                                 </section>
                             </div>
                         </div>
-                        <News />*/}
+                        <News />
                 </React.Fragment>
             </div>
         </div>                      

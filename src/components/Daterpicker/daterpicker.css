@@ -1,0 +1,74 @@
+.boxdater {
+    filter: drop-shadow(1px 1px 2px rgba(255, 255, 255, 0.332));
+    transition: transform 0.3s ease;
+    background-color: #f9f9f9;
+
+}
+
+.boxdater:hover {
+    transform: scale(1.01) ;
+}
+
+.title-time-is {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-time-is span {
+    background:#c35;
+    text-align: center;
+    color: white;
+    border: 0;
+    padding: 20px;
+    font-family: "Josefin", sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+
+.time-widget {
+    text-align: center;
+    font-family: 'Futura LT', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 20px;
+}
+
+.time-widget .time-widget-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Futura LT', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 8px 16px;
+    transition: background 0.3s ease;
+}
+#time_is_link .fa-map-marker-alt {
+    margin-right:8px;
+    margin-left: 3px;
+    font-size: 15px;
+    color:#520654;
+}
+
+.date-time span {
+    font-family: 'Futura LT', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+span .fa-regular {
+    margin-right: 5px;
+}
+
+

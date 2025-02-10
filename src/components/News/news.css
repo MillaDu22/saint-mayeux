@@ -1,0 +1,80 @@
+.container-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 76%;
+    padding-left:12%;
+    padding-right:12%;
+    padding-top:30px;
+    padding-bottom: 40px;
+    background: white;
+}
+
+.container-news .title22 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight:400;
+    color:#1e5a6e;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.container-mag {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 10px; /* Ajoute un écart entre les éléments */
+}
+
+.link-news {
+    position: relative; /* Nécessaire pour le positionnement du ::before */
+    width: 20%;
+    height: 100px;
+    padding: 30px;
+    border:1px solid lightgray;
+    overflow: hidden; /* Cache tout ce qui dépasse l'élément parent */
+    transition: transform 0.3s ease, color 0.3s ease;
+    border-radius: 0px; /* Ajout de coins arrondis pour un design moderne */
+}
+
+.link-news::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%; /* Commence en dehors à gauche */
+    width: 100%;
+    height: 100%;
+    background: rgba(159, 159, 159, 0.3); /* Couleur de la surbrillance */
+    transform: translateY(0); /* Pas besoin de centrer verticalement */
+    transition: left 0.4s ease-in-out; /* Rend le déplacement fluide */
+    z-index: 1;
+}
+
+.link-news:hover::before {
+    left: 0; /* Fait glisser la surbrillance pour couvrir l’élément */
+}
+
+.link-news:hover {
+    transform: scale(1.05); /* Grossissement léger au survol */
+}
+
+.logo-journal {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Maintient les proportions de l'image */
+    position: relative;
+}
+
+.j1, .j2, .j4 {
+    background: white;
+}
+
+.j3, .j5 {
+    background: black;
+}

@@ -1,0 +1,34 @@
+
+.panneau-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width:100%; 
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 250px; 
+    background: white;
+}
+
+.title-panneau {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight:400;
+    color:#1e5a6e;
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.panneau-video {
+    padding: 0%;
+    width: 500px; 
+    height: 200px; 
+    min-width: 100px;
+    object-fit: cover; 
+}
+
