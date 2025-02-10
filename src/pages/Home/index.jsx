@@ -1,14 +1,14 @@
 import React, { useEffect, useState, useRef } from 'react';
-/*import {Link} from 'react-router-dom';*/
+import {Link} from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 /*import Header from '../../components/Header/index.jsx';*/
 import CookiesConsent from '../../components/CookiesConsent/index.jsx';
 import Blason from '../../assets/images/accueil/st-mayeux.webp';
-/*import ChateauAerien from '../../assets/images/accueil/chateau-aerien.webp';
-import Tour from '../../assets/images/accueil/Tour-chateau.webp';
-import MaisonCheval from '../../assets/images/accueil/Maison-cheval.webp';
-import Talus4 from '../../assets/images/accueil/Talus4.webp';
-import Mairie from '../../assets/images/accueil/Place-mairie.webp';
+import Mairie from '../../assets/images/accueil/saint-mayeux-mairie.webp';
+import EgliseJour from '../../assets/images/accueil/saint-mayeux-jour.webp';
+import EgliseNuit from '../../assets/images/accueil/saint-mayeux-nuit.webp';
+import Eglise from '../../assets/images/accueil/saint-mayeux-eglise.webp';
+/*import Mairie from '../../assets/images/accueil/Place-mairie.webp';
 import Marché from '../../assets/images/accueil/Place-marche.webp';
 import Pontivy from '../../assets/images/accueil/Route-Pontivy.webp';
 import Facades from '../../assets/images/accueil/Facades-maisons.webp';*/
@@ -113,15 +113,15 @@ function Home() {
                                     à travers nos fêtes et traditions locales.
                                 </p>
                             </div>
-                            {/*<div className="box-quadra1-link">
+                            <div className="box-quadra1-link">
                                 <div className ="quadra">
-                                    <img className="patrimoine n1" src= {ChateauAerien} alt="Prise aerienne du chateau de Corlay"/>
-                                    <img className= "tour n2" src ={Tour} alt ="La tour du chateau de Corlay" />
-                                    <img className= "maisoncheval n3" src ={MaisonCheval} alt ="La maison du cheval à Corlay" />
-                                    <img className= "talus4 n4" src ={Talus4} alt ="Les courses à l'hippodrome de Corlay" />
+                                    <img className="patrimoine n1" src= {Mairie} alt="Mairie de Saint-Mayeux"/>
+                                    <img className= "tour n2" src ={EgliseJour} alt ="La place de la mairie de Saint-Mayeux de jour" />
+                                    <img className= "maisoncheval n3" src ={EgliseNuit} alt ="L'église paroissiale de Saint-Mayeux illuminée de nuit" />
+                                    <img className= "talus4 n4" src ={Eglise} alt ="L'église paroissiale de Saint-Mayeux de jour" />
                                 </div>
                                 <Link to="/history" className ="link-history"> Images d'archives < br /><i className="fa-solid fa-eye"></i></Link>
-                            </div>*/}
+                            </div>
                         </div>
                         <div className="box-intro-quadra2">
                             {/*<div className ="intro-title3">
@@ -164,13 +164,13 @@ function Home() {
                                         <div className="map-container">
                                             <iframe
                                                 title="plan"
-                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2681.635206854616!2d-3.0628134843537736!3d48.31851937924659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4811acabb83dbb1d%3A0xd1ee8ad1c8a30679!2sCh%C3%A2teau%20de%20Corlay!5e0!3m2!1sfr!2sfr!4v1693666590900!5m2!1sfr!2sfr"
+                                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.458788027023!2d-3.006389!3d48.255833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48114fb8cf8f1bf1%3A0x563d845bf5c5f716!2s%C3%89glise%20Saint-Mayeux!5e0!3m2!1sfr!2sfr!4v1697269936100!5m2!1sfr!2sfr"
                                                 loading="lazy">
                                             </iframe>
                                         </div>
                                     </div>
                                         <p>
-                                            Commune de Corlay
+                                            Commune de Saint-Mayeux
                                         </p>
                                         <p>
                                             Code postal : 22320
@@ -185,10 +185,11 @@ function Home() {
                                             Pays : France
                                         </p>
                                         <p>
-                                            Coordonnées GPS : 48.31852887551954, -3.060642017504217
+                                            Coordonnées GPS : 48.2558441162, -3.00500297546
+
                                         </p>
                                         <p>
-                                            Située au cœur de la Bretagne, Corlay est une charmante commune célèbre pour son patrimoine 
+                                            Située au cœur de la Bretagne, Saint-Mayeux est une charmante commune célèbre pour son patrimoine 
                                             historique et ses paysages pittoresques. Sa riche histoire est marquée par des monuments 
                                             emblématiques tels que le Château de Corlay, qui surplombe fièrement la région.
                                         </p>
@@ -203,22 +204,22 @@ function Home() {
                                             allowtransparency="true"
                                             allowFullScreen={true} 
                                             title="Fil d'actu Mairie de Corlay" 
-                                            src="https://station.illiwap.com/fr/public/22047/actu/embed"
+                                            src="https://station.illiwap.com/fr/public/22316/actu/embed"
                                             loading="lazy">
                                         </iframe>
                                         <div className="bar-illiwap">
                                             <h2 className="title24"><img className ="illiwap-logo" src ={Illiwap} alt ="Logo Illiwap" /></h2>
                                             <div className="container-links-illiwap">
-                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22047/actu/">
+                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22316/actu/">
                                                     <span>Consulter l'actualité</span>
                                                 </a>
-                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22047/evenements/">
+                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22316/evenements/">
                                                     <span>Consulter l'agenda</span>
                                                 </a>
-                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22047/signalement/">
+                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22316/signalement/">
                                                     <span>Envoyer un signalement</span>
                                                 </a>
-                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22047/idee/">
+                                                <a className="link-illiwap" target="blank" href="https://station.illiwap.com/fr/public/22316/idee/">
                                                     <span>Boîte à idées</span>
                                                 </a>
                                             </div>
